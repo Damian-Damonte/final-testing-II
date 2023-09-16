@@ -21,7 +21,6 @@ public class Register {
         BasePage.setupChromeDriver();
         extent = ExtentFactory.getInstance();
         extent.attachReporter(info);
-
     }
     @AfterAll
     public static void reporte() {

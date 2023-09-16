@@ -47,8 +47,7 @@ public class CreateNewAccount {
         newAccountPage.escribirUsername(UserConstants.USERNAME);
         newAccountPage.escribirPassword(UserConstants.PASSWORD);
         newAccountPage.login();
-        test.log(Status.PASS, "Realizando login");
-
+        test.log(Status.PASS, "Login realizado");
 
         newAccountPage.toOpenNewAccount();
         test.log(Status.PASS, "Ingresar a pestaña Open New Account");
